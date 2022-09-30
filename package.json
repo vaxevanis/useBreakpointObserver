@@ -1,0 +1,17 @@
+{
+  "name": "use-breakpoint-observer",
+  "description": "A React hook that allows you to use a ResizeObserver and gives you access to the currently active breakpoint and the width dimension of the targeted html element or body",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vaxevanis/useBreakpointObserver",
+  "author": "paulv <vaxevanis.paul@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "hooks",
+    "ResizeObserver"
+  ],
+  "dependencies": {
+    "-": "^0.0.1"
+  }
+}
