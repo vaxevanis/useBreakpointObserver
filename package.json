@@ -4,8 +4,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/vaxevanis/useBreakpointObserver",
-  "author": "paulv <vaxevanis.paul@gmail.com>",
+  "author": "Paul Vaxevanis <vaxevanis.paul@gmail.com>",
   "license": "MIT",
+  "private": false,
   "keywords": [
     "react",
     "hooks",
