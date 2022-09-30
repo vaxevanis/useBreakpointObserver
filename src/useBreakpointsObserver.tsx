@@ -1,5 +1,5 @@
 import { useState, useRef, useLayoutEffect } from 'react';
-import { BreakSizesType, BreakPointsType } from './interface';
+import { BreakSizesType, BreakPointsType } from './types';
 
 // Return the breakPoint size of the targeted html element
 export const useBreakpointsObserver = <T extends HTMLElement>(
