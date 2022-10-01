@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.js",
   "source": "src/index.js",
-  "repository": "https://github.com/vaxevanis/useBreakpointObserver",
+  "repository": "https://github.com/vaxevanis/useBreakpointsObserver",
   "author": "Paul Vaxevanis <vaxevanis.paul@gmail.com>",
   "license": "MIT",
   "private": false,
