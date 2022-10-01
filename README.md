@@ -8,6 +8,8 @@
 
 > A React hook that allows you to use a ResizeObserver and gives you access to the currently active breakpoint and the width dimension of the targeted html element or body
 
+🤸‍♂️ For a Running Demo click [here](https://paulv.gr/usebreakpointsobserver/)
+
 ## Install
 
 ```bash
