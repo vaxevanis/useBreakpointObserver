@@ -3,7 +3,7 @@
   "description": "A React hook that allows you to use a ResizeObserver and gives you access to the currently active breakpoint and the width dimension of the targeted html element or body",
   "version": "1.0.1",
   "main": "lib/index.js",
-  "types": "lib/types.d.js",
+  "types": "lib/types.js",
   "source": "src/index.js",
   "repository": "https://github.com/vaxevanis/useBreakpointObserver",
   "author": "Paul Vaxevanis <vaxevanis.paul@gmail.com>",
@@ -35,7 +35,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\"  ",
+    "format": "prettier --write \"src/**/*.{ts,js}\"",
     "lint": "eslint",
     "test": "jest --config jestconfig.json",
     "prepare": "yarn build",
