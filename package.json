@@ -1,7 +1,7 @@
 {
   "name": "use-breakpoint-observer",
   "description": "A React hook that allows you to use a ResizeObserver and gives you access to the currently active breakpoint and the width dimension of the targeted html element or body",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
   "source": "src/index.js",
@@ -43,7 +43,7 @@
     "verify": "yarn build && yarn prepublishOnly",
     "preversion": "yarn verify",
     "version": "yarn format && git add -A src",
-    "postversion": "git push --tags && yarn publish --new-version $npm_package_version && git push && echo \"Successfully released version $npm_package_version!\""
+    "postversion": "git push --tags && git push && echo \"Successfully released new version\""
   },
   "files": [
     "lib/**/*"
